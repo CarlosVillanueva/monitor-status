@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 // use Auth;
 
 use Illuminate\Http\Request;
-use App\Models\propiedades as propied;
+use App\Models\Propiedades as propied;
 
 
 class PageController extends Controller
