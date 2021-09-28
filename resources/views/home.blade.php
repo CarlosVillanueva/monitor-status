@@ -29,7 +29,7 @@
                                 <tr class="table-primary">
                                     <td>{{$data->nombre}}</td>
                                     <td>{{$data->valor}}</td>
-                                    <td>200</td>
+                                    <td>201</td>
                                 </tr>
                             @endforeach
                             @endif
