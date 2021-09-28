@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 // use Auth;
 
 use Illuminate\Http\Request;
-use App\models\Propiedades as Propiedades;
+use App\models\Propiedades as propiedades;
 
 
 class PageController extends Controller
@@ -12,7 +12,7 @@ class PageController extends Controller
 
     public function index()
     {
-        $data = Propiedades::all();
+        $data = propiedades::all();
         // dd($data);
         return view('home')->with(['data'=>$data]);
     }
