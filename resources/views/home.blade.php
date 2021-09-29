@@ -26,9 +26,13 @@
                         <tbody>
                             @if (isset($data))
                             @foreach ($data as $data)
+                               dd($data);
+                              {{-- @foreach ($data as $item) --}}
+                                 
+                           
                                 <tr class="table-primary">
-                                    <td>{{$data->nombre}}</td>
-                                    <td>{{$data->valor}}</td>
+                                    <td>{{$data->url}}</td>
+                                    <td>{{$data->http_code}}</td>
                                     <td>201</td>
                                 </tr>
                             @endforeach
