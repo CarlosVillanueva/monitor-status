@@ -5,11 +5,11 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Propiedades extends Model
+class Propiedades_authservice extends Model
 {
     use HasFactory;
 
-    protected $table = "propiedades";
+    protected $table = "propiedades_authservice";   
 
     protected $fillable = ['nombre', 'valor','alias'];
     protected $hidden = ['id'];
