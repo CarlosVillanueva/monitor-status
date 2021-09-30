@@ -60,11 +60,11 @@ class PageController extends Controller
             // $estado = json_decode($estado);
             $url = $estado['url'];
             $httpcode = $estado['http_code'];
-            $time = $estado['total_time_us'];
+            // $time = $estado['total_time_us'];
             //definir variables a analisar
             $data['url'] = $url;
             $data['http_code'] = $httpcode;
-            $data['total_time_us'] = $time;
+            // $data['total_time_us'] = $time;
             $data['name'] = $nombre;
             $data['tipo'] = $tipo;
 
@@ -114,11 +114,11 @@ class PageController extends Controller
             // $estado = json_decode($estado);
             $url = $estado['url'];
             $httpcode = $estado['http_code'];
-            $time = $estado['total_time_us'];
+            // $time = $estado['total_time_us'];
             //definir variables a analisar
             $datae['url'] = $url;
             $datae['http_code'] = $httpcode;
-            $datae['total_time_us'] = $time;
+            // $datae['total_time_us'] = $time;
             $datae['name'] = $nombre;
             $datae['tipo'] = $tipo;
 
