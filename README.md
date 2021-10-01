@@ -9,4 +9,5 @@ crear BD laravel.
 git clone al proyecto,
 quitar extencion .example a archio .env,
 composer update,
-php artisan serve.
+php artisan serve,
+por defecto deberia levantar en http://127.0.0.1:8000
