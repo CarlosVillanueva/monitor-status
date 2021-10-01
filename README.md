@@ -5,7 +5,8 @@ Mysql
 
 Pasos para levantar proyecto
 
+crear BD laravel.
 git clone al proyecto,
-descargar .env y pegarlo dentro del proyecto,
+quitar extencion .example a archio .env,
 composer update,
 php artisan serve.
