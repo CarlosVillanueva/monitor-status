@@ -8,4 +8,4 @@ Pasos para levantar proyecto
 git clone al proyecto,
 descargar .env y pegarlo dentro del proyecto,
 composer update,
-php artisan serve ,
+php artisan serve.
